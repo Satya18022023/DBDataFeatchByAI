@@ -1,0 +1,11 @@
+@AIDBDataFeatch_HostAddress = http://localhost:5185
+
+GET {{AIDBDataFeatch_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{AIDBDataFeatch_HostAddress}}/todos/1
+Accept: application/json
+
+###
